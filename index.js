@@ -107,3 +107,5 @@ const date = new Date();
 app.listen(port, () => {
   console.log(`App listening on port ${port} at ${date.toTimeString()}`)
 })
+
+export default app;
